@@ -4,15 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+     p {
+    
+    }
+
+    </style>
 </head>
 <body>
+    <div class="">
+<h1 id="titulo"> Cadastro de devs</h1>
+<p id="subtitulo"> formulario de cadastro</p>
+<div>
     <main>
        <form action="">
-            
-
-
-
-
+        <fieldset class="grupo">
+            <legend> Formulario</legend>
+            <label for="primeiro nome"> nome</label>
+            <input type="text" id="primeiro nome" name="primeiro nome">
+            <label for="sobrenome"> Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome"><br><b>
+           <p> Escolha sua linguagem de programação</p>
+           <input type="checkbox" name="linguagem" id="linguagem" value="java">
+           <label for="java"> Java</label> <br>
+           <input type="checkbox" id="python" name="python">
+           <label for="python"> Python</label> <br>
+           <input type="checkbox" name="php" id="php" value="php">
+             <label for="php">Php</label>
+             <p>Senioridade</p> <select name="senioridade" id="senioridade">
+               <option value="junior" selected>Selecione</option>
+               <option value="junior"> junior</option>
+               <option value="Pleno"> Pleno</option>
+               <option value="Senior">Senior</option> 
+             </select> 
+              <p> Qual linguagem trabalha ?</p>
+              <input type="checkbox" name="php" id="php">
+              <label for="php">Php</label>
+              <input type="checkbox" name="JavaScript" id="JavaScript">
+             <label for="JavaScript">JavaScript</label>
+             <input type="checkbox" name="c#" id="c#">
+             <label for="c#">C#</C></label>
+              <P>Descreva sua carreira > </P>
+              <textarea name="carreira" id="carreira" cols="50" rows="10"></textarea> <br> <br>
+              <input type="submit" value="enviar">
+            </fieldset>
        </form>
 
 
